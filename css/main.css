@@ -14,6 +14,10 @@ h6 {
   font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
 }
 
+a:focus{
+  outline: 4px solid black;
+}
+
 .container {
   max-width: 1080px;
   margin: 0 auto;
@@ -61,6 +65,10 @@ img {
   font-size: 1.25rem;
 }
 
+.main-nav ul li a:hover{
+  text-decoration: underline;
+}
+
 form input,
 form textarea {
   display: block;
@@ -85,4 +93,8 @@ form button {
 
 .site-footer {
   padding: 2rem 0;
+}
+
+.site-footer a {
+  color: #000000;
 }
