@@ -60,22 +60,14 @@
       <section class="contact-section">
         <h1>Contact Us</h1>
         <form action="thanks.html">
-          <label>
-            Full Name
-            <input type="text" placeholder="Full Name">
-          </label>
-          <label>
-            Email
-            <input type="text" placeholder="Email">
-          </label>
-          <label>
-            Subject
-            <input type="text" placeholder="Subject">
-          </label>
-          <label>
-            <b>Your Message</b>
-            <textarea></textarea>
-          </label>
+          <label for="fullname">Name</label>
+          <input type="text" id="fullname" name="fullname" placeholder="Full Name">
+          <label for="youremail">Email</label>
+          <input type="email" id="youremail" name="youremail" placeholder="Email address">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="Subject">
+          <label for="message">Your Message</label>
+          <textarea id="message" name="message" placeholder="Write your message here..."></textarea>
           <button type="submit">Send</button>
         </form>
       </section>
