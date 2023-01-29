@@ -15,19 +15,25 @@
 
 <body>
   <div class="container">
-    <div class="site-header">
+    <ul class="skip-links">
+      <li><a href="#nav">Skip to main nav</a></li>
+      <li><a href="#main">Skip to main content</a></li>
+    </ul>
+
+    <header class="site-header">
       <h1>Jam Box Studios</h1>
-      <div class="main-nav">
+      <nav id="nav" class="main-nav">
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">Products</a></li>
           <li><a href="#">Reservation</a></li>
           <li><a href="#">Studio</a></li>
         </ul>
-      </div>
+      </nav>
       <img src="https://placekitten.com/1200/900" class="banner" alt="Kitten lying on the blanket">
-    </div>
-    <div class="main-content">
+    </header>
+
+    <main id="main" class="main-content">
       <h1>Welcome to Jam Box</h1>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laboriosam praesentium nostrum ipsa
         eveniet, officia deserunt cumque eius esse enim, ipsam accusantium autem nihil quaerat sequi perferendis optio
@@ -35,7 +41,7 @@
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perferendis expedita sed itaque odit ipsam
         omnis, eos voluptates magni fugit culpa voluptatibus, inventore eaque, eligendi voluptatum! Voluptate iusto
         error voluptatibus.</p>
-      <div class="owner">
+      <section class="owner">
         <h1>Meet the owner</h1>
         <ul>
           <li>Name: John Doe</li>
@@ -50,8 +56,8 @@
           Musicville, Danceistan
           B3T 0L0
         </p>
-      </div>
-      <div class="contact-section">
+      </section>
+      <section class="contact-section">
         <h1>Contact Us</h1>
         <form action="thanks.html">
           <label>
@@ -72,11 +78,12 @@
           </label>
           <button type="submit">Send</button>
         </form>
-      </div>
-    </div>
-    <div class="site-footer">
+      </section>
+    </main>
+
+    <footer class="site-footer">
       &copy; 2021 Jam Box Studios
-    </div>
+    </footer>
   </div>
 </body>
 
