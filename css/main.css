@@ -24,6 +24,10 @@ img {
   width: 100%;
 }
 
+.skip-links li a {
+  color: #000000;
+}
+
 .main-nav ul {
   list-style: none;
   display: flex;
@@ -61,7 +65,7 @@ form textarea {
 
 form button {
   background: none;
-  border: 2px solid black;
+  border: 2px solid #000000;
   padding: 1rem;
   text-transform: uppercase;
 }
